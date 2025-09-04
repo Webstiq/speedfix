@@ -1,14 +1,23 @@
 const swiper = new Swiper('.swiper', {
-    loop: true,
-    slidesPerView: "auto", 
-    centeredSlides: true, 
-    spaceBetween: 40, 
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-    autoplay: {
-        delay: 3000, 
-        disableOnInteraction: false, 
-      },
-});
+	loop: true,
+	slidesPerView: 'auto',
+	centeredSlides: true,
+	spaceBetween: 40,
+	navigation: {
+		nextEl: '.swiper-button-next',
+		prevEl: '.swiper-button-prev',
+	},
+	autoplay: {
+		delay: 3000,
+		disableOnInteraction: false,
+	},
+	a11y: {
+		enabled: true,
+	},
+	keyboard: {
+		enabled: true,
+		onlyInViewport: true,
+	},
+	watchSlidesProgress: true,
+	watchSlidesVisibility: true,
+})

@@ -54,7 +54,6 @@ const ischecked = () => {
 
 // Funciot used fot demonstration purposes
 const sendStatus = () => {
-	
 	username.value = '' 
 	email.value = ''
 	msg.value = ''
